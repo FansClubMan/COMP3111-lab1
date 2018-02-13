@@ -17,8 +17,8 @@ public class Lab1Activity {
 		}
 		int min=100;
 		for(int i=0; i<10; i++) {
-			if(max>arr[i])
-				max=arr[i];
+			if(min>arr[i])
+				min=arr[i];
 		}
 		System.out.println(String.format("max is %d", max));
 		System.out.println(String.format("min is %d", min));
